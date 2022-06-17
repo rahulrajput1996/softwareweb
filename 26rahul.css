@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('DESIGNMINE.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: white;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    display: inline-block;
+    padding: 12px 10px;
+    margin: 8px 13px;
+    line-height: 50px;
+}
+
+.navbar {
+    /* border: 2px solid rgb(190, 8, 8); */
+
+    /* display: inline-block; */
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    padding: 1px 3px;
+    margin: 2px auto;
+    width: 50%;
+    height: 50px;
+    display: block;
+    font-size: 23px;
+
+}
+
+.search {
+    /* border: 2px solid rgb(235, 14, 7); */
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 10px 20px;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    height: 50px;
+    width: 200px;
+
+}
+
+.logo img {
+    width: 50px;
+    padding: 2px auto;
+    margin: 2px auto;
+    filter: invert(100%);
+    display: block;
+}
+
+.logo div{
+ font-size: 20px;
+
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 22px;
+    margin: 2px 2px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.search button {
+    border-radius: 10px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: burlywood;
+    cursor: pointer;
+        height: 40px;
+            width: 70px;
+            font-size: 19px;
+}
+
+.search input {
+    border-radius: 5px;
+    background-color: bisque;
+    width: 120px;
+            height: 35px;
+            width: 126px;
+            font-size: 14px;
+}
+
+.search button:hover,
+.search input:hover {
+    background-color: white;
+    color: black;
+}
+
+.section {
+    /* border: 2px solid green; */
+    padding: 3px 10px;
+    margin: 3px 4px;
+    display: inline-block;
+    width: 700px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.section input {
+        border: 2px solid black;
+            display: block;
+            padding: 2px 4px;
+            margin: 10px auto;
+            border-radius: 10px;
+            background-color: rgb(231, 223, 223);
+            text-align: center;
+            width: 400px;
+            height: 34px;
+            font-size: 20px;
+}
+
+.section .btn {
+    display: inline-block;
+        height: 46px;
+        width: 115px;
+        font-size: 25px;
+}
+
+.section .btn:hover {
+ color: white;
+ background-color: black;
+}
+
+.section input:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.footer {
+    /* border: 2px solid red;
+            background-color: blue; */
+    display: block;
+    text-align: center;
+    margin: 1px 15px;
+    padding: 1px 4px;
+    position: relative;
+    top: 0px;
+    font-size: 25px;
+}
